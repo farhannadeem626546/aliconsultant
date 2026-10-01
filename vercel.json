@@ -2,5 +2,455 @@
   "framework": null,
   "buildCommand": "",
   "outputDirectory": ".",
-  "trailingSlash": true
+  "trailingSlash": true,
+  "rewrites": [
+    {
+      "source": "/about/",
+      "destination": "/page-about.html"
+    },
+    {
+      "source": "/about",
+      "destination": "/page-about.html"
+    },
+    {
+      "source": "/agent-quality-framework/",
+      "destination": "/page-agent-quality-framework.html"
+    },
+    {
+      "source": "/agent-quality-framework",
+      "destination": "/page-agent-quality-framework.html"
+    },
+    {
+      "source": "/blog/application-planning/",
+      "destination": "/page-blog-application-planning.html"
+    },
+    {
+      "source": "/blog/application-planning",
+      "destination": "/page-blog-application-planning.html"
+    },
+    {
+      "source": "/blog/english-test-preparation/",
+      "destination": "/page-blog-english-test-preparation.html"
+    },
+    {
+      "source": "/blog/english-test-preparation",
+      "destination": "/page-blog-english-test-preparation.html"
+    },
+    {
+      "source": "/blog/",
+      "destination": "/page-blog.html"
+    },
+    {
+      "source": "/blog",
+      "destination": "/page-blog.html"
+    },
+    {
+      "source": "/blog/scholarship-eligibility/",
+      "destination": "/page-blog-scholarship-eligibility.html"
+    },
+    {
+      "source": "/blog/scholarship-eligibility",
+      "destination": "/page-blog-scholarship-eligibility.html"
+    },
+    {
+      "source": "/blog/university-shortlist/",
+      "destination": "/page-blog-university-shortlist.html"
+    },
+    {
+      "source": "/blog/university-shortlist",
+      "destination": "/page-blog-university-shortlist.html"
+    },
+    {
+      "source": "/branches/",
+      "destination": "/page-branches.html"
+    },
+    {
+      "source": "/branches",
+      "destination": "/page-branches.html"
+    },
+    {
+      "source": "/branches/sialkot/",
+      "destination": "/page-branches-sialkot.html"
+    },
+    {
+      "source": "/branches/sialkot",
+      "destination": "/page-branches-sialkot.html"
+    },
+    {
+      "source": "/contact/",
+      "destination": "/page-contact.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/page-contact.html"
+    },
+    {
+      "source": "/course/ielts-academic-course/",
+      "destination": "/page-course-ielts-academic-course.html"
+    },
+    {
+      "source": "/course/ielts-academic-course",
+      "destination": "/page-course-ielts-academic-course.html"
+    },
+    {
+      "source": "/course/ielts-general-training-gt-course/",
+      "destination": "/page-course-ielts-general-training-gt-course.html"
+    },
+    {
+      "source": "/course/ielts-general-training-gt-course",
+      "destination": "/page-course-ielts-general-training-gt-course.html"
+    },
+    {
+      "source": "/course/ielts-life-skills-a1-b1/",
+      "destination": "/page-course-ielts-life-skills-a1-b1.html"
+    },
+    {
+      "source": "/course/ielts-life-skills-a1-b1",
+      "destination": "/page-course-ielts-life-skills-a1-b1.html"
+    },
+    {
+      "source": "/course/",
+      "destination": "/page-course.html"
+    },
+    {
+      "source": "/course",
+      "destination": "/page-course.html"
+    },
+    {
+      "source": "/course/languagecert-international-esol-speaking-course/",
+      "destination": "/page-course-languagecert-international-esol-speaking-course.html"
+    },
+    {
+      "source": "/course/languagecert-international-esol-speaking-course",
+      "destination": "/page-course-languagecert-international-esol-speaking-course.html"
+    },
+    {
+      "source": "/course/oxford-ell-t-speaking-course/",
+      "destination": "/page-course-oxford-ell-t-speaking-course.html"
+    },
+    {
+      "source": "/course/oxford-ell-t-speaking-course",
+      "destination": "/page-course-oxford-ell-t-speaking-course.html"
+    },
+    {
+      "source": "/course/pte-academic/",
+      "destination": "/page-course-pte-academic.html"
+    },
+    {
+      "source": "/course/pte-academic",
+      "destination": "/page-course-pte-academic.html"
+    },
+    {
+      "source": "/destinations/australia/",
+      "destination": "/page-destinations-australia.html"
+    },
+    {
+      "source": "/destinations/australia",
+      "destination": "/page-destinations-australia.html"
+    },
+    {
+      "source": "/destinations/canada/",
+      "destination": "/page-destinations-canada.html"
+    },
+    {
+      "source": "/destinations/canada",
+      "destination": "/page-destinations-canada.html"
+    },
+    {
+      "source": "/destinations/cyprus/",
+      "destination": "/page-destinations-cyprus.html"
+    },
+    {
+      "source": "/destinations/cyprus",
+      "destination": "/page-destinations-cyprus.html"
+    },
+    {
+      "source": "/destinations/dubai/",
+      "destination": "/page-destinations-dubai.html"
+    },
+    {
+      "source": "/destinations/dubai",
+      "destination": "/page-destinations-dubai.html"
+    },
+    {
+      "source": "/destinations/germany/",
+      "destination": "/page-destinations-germany.html"
+    },
+    {
+      "source": "/destinations/germany",
+      "destination": "/page-destinations-germany.html"
+    },
+    {
+      "source": "/destinations/",
+      "destination": "/page-destinations.html"
+    },
+    {
+      "source": "/destinations",
+      "destination": "/page-destinations.html"
+    },
+    {
+      "source": "/destinations/ireland/",
+      "destination": "/page-destinations-ireland.html"
+    },
+    {
+      "source": "/destinations/ireland",
+      "destination": "/page-destinations-ireland.html"
+    },
+    {
+      "source": "/destinations/malaysia/",
+      "destination": "/page-destinations-malaysia.html"
+    },
+    {
+      "source": "/destinations/malaysia",
+      "destination": "/page-destinations-malaysia.html"
+    },
+    {
+      "source": "/destinations/south-korea/",
+      "destination": "/page-destinations-south-korea.html"
+    },
+    {
+      "source": "/destinations/south-korea",
+      "destination": "/page-destinations-south-korea.html"
+    },
+    {
+      "source": "/destinations/turkiye/",
+      "destination": "/page-destinations-turkiye.html"
+    },
+    {
+      "source": "/destinations/turkiye",
+      "destination": "/page-destinations-turkiye.html"
+    },
+    {
+      "source": "/destinations/united-kingdom/",
+      "destination": "/page-destinations-united-kingdom.html"
+    },
+    {
+      "source": "/destinations/united-kingdom",
+      "destination": "/page-destinations-united-kingdom.html"
+    },
+    {
+      "source": "/destinations/united-states/",
+      "destination": "/page-destinations-united-states.html"
+    },
+    {
+      "source": "/destinations/united-states",
+      "destination": "/page-destinations-united-states.html"
+    },
+    {
+      "source": "/elc/",
+      "destination": "/page-elc.html"
+    },
+    {
+      "source": "/elc",
+      "destination": "/page-elc.html"
+    },
+    {
+      "source": "/ged/",
+      "destination": "/page-ged.html"
+    },
+    {
+      "source": "/ged",
+      "destination": "/page-ged.html"
+    },
+    {
+      "source": "/news/",
+      "destination": "/page-news.html"
+    },
+    {
+      "source": "/news",
+      "destination": "/page-news.html"
+    },
+    {
+      "source": "/news-and-events/",
+      "destination": "/page-news-and-events.html"
+    },
+    {
+      "source": "/news-and-events",
+      "destination": "/page-news-and-events.html"
+    },
+    {
+      "source": "/partners/",
+      "destination": "/page-partners.html"
+    },
+    {
+      "source": "/partners",
+      "destination": "/page-partners.html"
+    },
+    {
+      "source": "/projects/ali-consultants/",
+      "destination": "/page-projects-ali-consultants.html"
+    },
+    {
+      "source": "/projects/ali-consultants",
+      "destination": "/page-projects-ali-consultants.html"
+    },
+    {
+      "source": "/projects/elc/",
+      "destination": "/page-projects-elc.html"
+    },
+    {
+      "source": "/projects/elc",
+      "destination": "/page-projects-elc.html"
+    },
+    {
+      "source": "/projects/",
+      "destination": "/page-projects.html"
+    },
+    {
+      "source": "/projects",
+      "destination": "/page-projects.html"
+    },
+    {
+      "source": "/resources/application-planning/",
+      "destination": "/page-resources-application-planning.html"
+    },
+    {
+      "source": "/resources/application-planning",
+      "destination": "/page-resources-application-planning.html"
+    },
+    {
+      "source": "/resources/english-test-preparation/",
+      "destination": "/page-resources-english-test-preparation.html"
+    },
+    {
+      "source": "/resources/english-test-preparation",
+      "destination": "/page-resources-english-test-preparation.html"
+    },
+    {
+      "source": "/resources/",
+      "destination": "/page-resources.html"
+    },
+    {
+      "source": "/resources",
+      "destination": "/page-resources.html"
+    },
+    {
+      "source": "/resources/scholarship-eligibility/",
+      "destination": "/page-resources-scholarship-eligibility.html"
+    },
+    {
+      "source": "/resources/scholarship-eligibility",
+      "destination": "/page-resources-scholarship-eligibility.html"
+    },
+    {
+      "source": "/resources/university-shortlist/",
+      "destination": "/page-resources-university-shortlist.html"
+    },
+    {
+      "source": "/resources/university-shortlist",
+      "destination": "/page-resources-university-shortlist.html"
+    },
+    {
+      "source": "/scholarships/",
+      "destination": "/page-scholarships.html"
+    },
+    {
+      "source": "/scholarships",
+      "destination": "/page-scholarships.html"
+    },
+    {
+      "source": "/services/admission-assistance/",
+      "destination": "/page-services-admission-assistance.html"
+    },
+    {
+      "source": "/services/admission-assistance",
+      "destination": "/page-services-admission-assistance.html"
+    },
+    {
+      "source": "/services/career-counselling/",
+      "destination": "/page-services-career-counselling.html"
+    },
+    {
+      "source": "/services/career-counselling",
+      "destination": "/page-services-career-counselling.html"
+    },
+    {
+      "source": "/services/ielts-preparation/",
+      "destination": "/page-services-ielts-preparation.html"
+    },
+    {
+      "source": "/services/ielts-preparation",
+      "destination": "/page-services-ielts-preparation.html"
+    },
+    {
+      "source": "/services/",
+      "destination": "/page-services.html"
+    },
+    {
+      "source": "/services",
+      "destination": "/page-services.html"
+    },
+    {
+      "source": "/services/post-departure-support/",
+      "destination": "/page-services-post-departure-support.html"
+    },
+    {
+      "source": "/services/post-departure-support",
+      "destination": "/page-services-post-departure-support.html"
+    },
+    {
+      "source": "/services/pre-departure-guidance/",
+      "destination": "/page-services-pre-departure-guidance.html"
+    },
+    {
+      "source": "/services/pre-departure-guidance",
+      "destination": "/page-services-pre-departure-guidance.html"
+    },
+    {
+      "source": "/services/profile-assessment/",
+      "destination": "/page-services-profile-assessment.html"
+    },
+    {
+      "source": "/services/profile-assessment",
+      "destination": "/page-services-profile-assessment.html"
+    },
+    {
+      "source": "/services/scholarship-guidance/",
+      "destination": "/page-services-scholarship-guidance.html"
+    },
+    {
+      "source": "/services/scholarship-guidance",
+      "destination": "/page-services-scholarship-guidance.html"
+    },
+    {
+      "source": "/services/university-selection/",
+      "destination": "/page-services-university-selection.html"
+    },
+    {
+      "source": "/services/university-selection",
+      "destination": "/page-services-university-selection.html"
+    },
+    {
+      "source": "/services/visa-application-assistance/",
+      "destination": "/page-services-visa-application-assistance.html"
+    },
+    {
+      "source": "/services/visa-application-assistance",
+      "destination": "/page-services-visa-application-assistance.html"
+    },
+    {
+      "source": "/services/visa-interview-preparation/",
+      "destination": "/page-services-visa-interview-preparation.html"
+    },
+    {
+      "source": "/services/visa-interview-preparation",
+      "destination": "/page-services-visa-interview-preparation.html"
+    },
+    {
+      "source": "/team/",
+      "destination": "/page-team.html"
+    },
+    {
+      "source": "/team",
+      "destination": "/page-team.html"
+    },
+    {
+      "source": "/universities/",
+      "destination": "/page-universities.html"
+    },
+    {
+      "source": "/universities",
+      "destination": "/page-universities.html"
+    }
+  ]
 }
