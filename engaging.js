@@ -91,3 +91,17 @@
     const hero=document.querySelector('main>section');hero?.after(nav);
   }
 })();
+
+(() => {
+ const section=document.querySelector('.ac-expanded > .ac-section');
+ if(!section)return;
+ const box=section.querySelector('.container'), heading=box.querySelector('h2'), eyebrow=box.querySelector('.ac-eyebrow');
+ if(!heading||!eyebrow)return;
+ const preparation=/^\/(course|elc|services|contact|blog|resources|ged)(\/|$)/.test(location.pathname);
+ const visual=document.createElement('div');visual.className='ac-editorial';
+ const intro=document.createElement('div');intro.className='ac-editorial-intro';
+ box.insertBefore(visual,eyebrow);intro.append(eyebrow,heading);
+ const figure=document.createElement('figure');figure.className='ac-editorial-photo';
+ const img=document.createElement('img');img.src=preparation?'/ai-student-preparation.webp':'/ai-student-campus.webp';img.alt=preparation?'AI illustration of students preparing together in a university library':'AI illustration of Pakistani students walking through an international campus';img.width=1536;img.height=1024;img.loading='lazy';img.decoding='async';
+ const caption=document.createElement('figcaption');caption.textContent='AI-generated illustration';figure.append(img,caption);visual.append(intro,figure);
+})();
